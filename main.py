@@ -15,6 +15,16 @@ if st.checkbox('Show dataframe'):
 
     chart_data
 
+if st.checkbox('show table'):
+    chart_data = pd.DataFrame({
+        'Name' : [Anujan, Reuben]
+        'Age' : [17,17]
+    })
+    st.write(chart_data)
+        
+    
+
+
 st.write("Hello World!*")
 st.write(st.slider("what"))
 
