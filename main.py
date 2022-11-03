@@ -17,7 +17,12 @@ option = st.selectbox(
     'Which number do you like best?',
      df['first column'])
 
+option2 = st.selectbox(
+    'Which number is a multiple of 10 ;),
+    df['second column'])
+
 'You selected: ', option
+'you selected', option2
 
 if st.checkbox('Show dataframe'):
     chart_data = pd.DataFrame(
