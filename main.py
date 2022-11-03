@@ -13,7 +13,7 @@ option = st.selectbox(
      df['first column'])
 
 option2 = st.selectbox(
-    'Which number is a multiple of 10 ;),
+    'Which number is a multiple of 10 ;)',
     df['second column'])
 
 'You selected: ', option
