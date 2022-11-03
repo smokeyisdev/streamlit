@@ -17,7 +17,7 @@ if st.checkbox('Show dataframe'):
 
 if st.checkbox('show table'):
     chart_data = pd.DataFrame({
-        'Name' : [Anujan, Reuben]
+        'Name' : [Anujan, Reuben],
         'Age' : [17,17]
     })
     st.write(chart_data)
